@@ -1,8 +1,8 @@
 # Online-Thrift-Store-Front-End
 
-Online Thrift Store is a web application  created as a learning Project.
+Online Thrift Store is a web application where you can Buy or Sell second Hand Clothes  created as a learning Project.
 
-The App was structured according to the **MVC** (Model-View-Controller)
+The App was structured according to the **MVC** (Model-View-Controller) Software Design Pattern
 
 Front-End was created with **React** Javascript Library
 
