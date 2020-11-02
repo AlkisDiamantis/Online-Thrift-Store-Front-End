@@ -1,0 +1,722 @@
+
+* {
+  box-sizing: border-box;
+  border:none;
+  border-radius:4px;
+  font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif , 'FontAwesome'
+  
+}
+
+.homecontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgb(197, 197, 197);
+  height: 92vh;
+  overflow: auto;
+  
+ 
+}
+.mylinks{
+  display: flex;
+  justify-content: center;
+
+}
+.homecontainer >.myimage{
+  
+  width:40%;
+height: 60%;
+  padding-top:50px;
+
+  }
+
+p{
+  margin:2px;
+}
+
+.mylinks > div {
+ 
+  margin:10px;
+  border:1px solid rgb(212, 212, 212);
+  background-color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.homecontainer > #welcomemsg{
+ text-align:center;
+ flex:5;
+  align-items: center;
+  font-size: xx-large;
+ color:rgb(95, 95, 95);
+ margin-top:8%;
+
+
+}
+
+.maincontainer{
+  background-color:rgb(80, 79, 79);
+  height: 100vh;
+  overflow-x: hidden; 
+  overflow-y: auto; 
+
+}
+a, a:hover {
+  color:rgb(175, 175, 175)
+}
+
+
+.registerform{
+  display: flex;
+  margin-top:20px;
+  background-color:rgb(211, 211, 211);
+  overflow: auto;
+  width:100%;
+  height: auto;
+}
+
+.registerform > .imgpart{
+
+height:200px;
+opacity: 0.8;
+
+}
+.saleformimg{
+  flex:0.8;
+  text-align: center;
+}
+.registerform >.formpart{
+  flex:1;
+font-weight:bolder;
+color:rgb(128, 128, 128);
+margin-top:65px;
+}
+
+input:placeholder-shown {
+  opacity: 0.5;
+}
+
+
+.imgpart {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+.myimage{
+  width:280px;
+  margin-top:9px;
+
+
+
+}
+
+.centered {
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loginforminner{
+  display: flex;
+  justify-content: center;
+  text-align:center;
+  color:rgb(128, 128, 128);
+  background-color:rgb(211, 211, 211);
+  margin-top:10%;
+  overflow: auto;
+  width:100%;
+  height: auto;
+}
+#siginbtn:hover{
+background-color:blue;
+}
+
+#profilelink{
+color:white;
+opacity: 0.6;
+}
+
+#profilelink:hover{
+opacity: 1;
+background-color:blue;
+}
+
+.loginimage{
+  height:auto;
+  width:180px;
+  opacity: 0.9;
+  margin-top:15px;
+}
+
+.customform{
+margin:10px;
+}
+
+.customform input{
+  border:none;
+  border-bottom:1px solid grey;
+  background-color:rgb(211, 211, 211);
+}
+
+h5{
+  color:black;
+  font-weight: bolder;
+  margin-bottom:50px;
+  font-size: xx-large;
+  opacity: 0.85;
+}
+
+.MainPageCotainer{
+  background-color: rgb(218, 218, 218);
+  height: 72vh;
+  flex:13;
+    overflow-x: hidden; 
+  overflow-y: auto; 
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+div.scroll { 
+  margin:4px, 4px; 
+  padding:4px; 
+  width: 100% ;
+  height: 100%; 
+  overflow-x: hidden; 
+  overflow-y: auto; 
+  text-align:justify; 
+} 
+
+.flexcontainer{
+  display: flex;
+}
+.searchoptions{
+  flex:2;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(196, 192, 192);
+  height: 72vh;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+FileBase64{
+background-color:blue
+}
+
+.photoInput{
+  margin:7px 0px;
+ 
+}
+select{
+  border:0px;
+}
+.saleimg{
+  width:130px;
+  border-radius: 30%;
+  height:140px;
+  margin-left:20px;
+  margin-right:20px;
+  cursor: pointer;
+}
+
+.saleDisplay{
+  display: flex;
+  color:rgb(56, 56, 56);
+  background-color:rgb(235, 235, 235);
+  margin:10px 0px;
+  padding:10px 0px;
+  box-shadow: 0px 3px  9px #888888;
+  overflow: auto;
+  opacity: 0.8;
+}
+.saleDisplay:hover{
+  opacity: 1;
+}
+
+.saleTitle{
+  flex:1.1;
+}
+
+.saleInfo1{
+flex:1.2;
+padding:0px 10px;
+}
+
+.userinfo1{
+  flex:0.6;
+  padding:0px 10px;
+}
+
+.saleInfo2{
+  flex:1.3;
+  margin-left:10px;
+}
+.salelinks{
+  display: flex;
+  flex-direction: column;
+  flex:1.4;
+  justify-content: center;
+  text-align: center;
+}
+
+.salelinks >button{
+margin: 0 30px;
+background-color: rgb(75, 75, 75);
+color: white;
+}
+.saleDisplay > div {
+  border-right: 1px solid rgb(231, 225, 225);
+  border-radius:0px;
+}
+
+.saleTitle > p {
+  margin-right:30px;
+}
+
+.searchoptions select {
+  width:90%;
+  margin-left:7px;
+  font-size: small;
+} 
+
+.loadingscreen{
+  width:100%;
+  height: 80vh;
+  background-color:white;
+}
+
+#pricestyle{
+
+  font-family: Arial, Helvetica, sans-serif;
+  padding:3px;
+  color:white;
+  background-color:black
+}
+
+#price{
+  width:180px;
+}
+.submitprice{
+  display: flex;
+}
+
+.homeheader{
+  background-color:black;
+  padding:10px;
+  border-radius: 0px;
+  margin-bottom:4px;
+  overflow: auto;
+}
+
+.modalbody{
+  text-align: center;
+  background-color: rgb(204, 204, 204);
+  font-weight: bold;
+  color:rgb(41, 41, 41);
+}
+
+.contactbutton{
+ font-size:small;
+ border-radius:0px;
+ border:1px solid grey;
+ opacity: 0.4;
+}
+.contactbutton:hover{
+  opacity: 1;
+}
+.modalheader{
+  color:white;
+  background-color:rgb(40, 42, 61);
+}
+
+.detailsimg{
+  width:200px;
+  height: 100%;
+}
+
+.modalfooter{
+  background-color: rgb(151, 151, 151);
+}
+.homenavbar{
+
+}
+
+.homenavbar ul {
+  display: flex;
+  list-style: none;        
+  padding-left: 0;
+  justify-content: center;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.homenavbar ul button {
+  display: flex;
+  background-color:black;
+  margin: 0 20px;
+  color:white;
+  cursor: pointer;
+  
+}
+
+#adminbuttons{
+  background-color:rgb(209, 49, 49);
+  font-weight: bold;
+}
+
+
+ #salebutton{
+ font-size: x-large;
+ background-color:white;
+ text-align: center;
+}
+
+.saleitem{
+
+  padding:0 10px;
+  font-weight:bold;
+  
+}
+
+.saleitem a{
+  color:rgb(245, 245, 245);
+  opacity: 0.6;
+}
+.saleitem a:hover{
+  opacity: 1;
+
+background-color:blue;
+}
+.homelink {
+  padding:0 10px;
+ 
+}
+.homelink a {
+
+  color:#ffffff;
+  opacity: 0.6;
+
+}
+.homelink a:hover{
+  opacity: 1;
+
+  background-color:blue;
+}
+#signinbtn{
+  background-color:rgb(221, 221, 221);
+  color:rgb(71, 71, 71);
+  opacity: 0.3;
+}
+#signinbtn:hover{
+  background-color:blue;
+  opacity: 0.8;
+  color:white
+}
+
+
+.logoutlink{
+  background-color:rgb(46, 46, 46);
+  color:rgb(182, 182, 182);
+  margin-left:5px;
+}
+.logoutlink:hover{
+  opacity:1;
+  background-color:rgb(224, 222, 222);
+  color:black;
+}
+
+.loginbutton a{
+  opacity: 0.4;
+  background-color:rgb(224, 222, 222);
+  color:black
+}
+.loginbutton a:hover{
+  opacity:1;
+}
+
+
+h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.saleformaincontainer{
+  background-color:rgb(182, 182, 182);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto; 
+  overflow-y: hidden; 
+
+  margin-top:50px;
+  border-radius:50px;
+  
+}
+.saleformimg{
+  margin-left:18px;
+}
+
+
+.dropdowntypes{
+  display: flex;
+}
+.saleinput{
+flex :0.5;
+}
+.saleformaincontainer select{
+  border:2px solid grey;
+  border-radius:20px;
+  padding:3px;
+  margin:0px 5px;
+}
+.saleinput input {
+  width:300px;
+}
+.inlineoptions{
+  display: flex;
+}
+
+.saleformcss{
+padding:50px 0px;
+}
+
+.centered2{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:x-large;
+}
+.editlink{
+  color:blue;
+}
+.edituserpage{
+  background-color:white;
+}
+
+.editimg{
+  
+  width:220px;
+  height:230px;
+  margin:10px;
+  margin-top:130px;
+  margin-left:70px;
+
+}
+.centerbutton{
+
+  margin:0px 40px;
+  margin-top:50px;
+  opacity: 0.8;
+}
+.centerbutton:hover{
+  opacity: 1;
+}
+.imginput{
+  margin-left:70px;
+}
+.emptybox{
+  text-align: center;
+  margin-top:30%;
+  font-size: xx-large;
+  color: #888888;
+  opacity: 0.3;
+}
+.emptybox2{
+  text-align: center;
+  margin-top:20%;
+  font-size: xx-large;
+  color: #888888;
+  opacity: 0.3;
+}
+.registermsg{
+  display: flex;
+}
+.importantmsg{
+  flex:1;
+  text-align: center;
+  margin-left:5px;
+
+}
+.backendmsg{
+  flex:1.5;
+  text-align: center;
+}
+ .manageuserlink:hover{
+  opacity: 1;
+  color:white;
+  background-color:rgb(184, 50, 41);
+ }
+ .saleerrors{
+  justify-content: center;
+   background-color:rgb(214, 189, 199);
+   text-align: center;
+   flex:0.5;
+
+
+}
+.msgcomponent{
+  display: flex;
+  background-color:rgb(235, 235, 235);
+  padding:10px;
+  margin:10px 0px;
+  border:1px solid rgb(148, 148, 148);
+  border-radius:10px;
+  width:60%;
+  margin-left:20%;
+  overflow: auto;
+}
+.msgsend{
+  color:red;
+  text-align: center;
+  margin-right:125px;
+}
+.msginfo{
+  flex:1;
+  margin:10px;
+  padding:5px;
+}
+.msgbuttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+.msgbuttons Button{
+  margin:10px;
+}
+
+
+.inbox{
+  background-color: rgb(173, 162, 162);
+  border-radius:0px;
+  padding:30px;
+}
+
+
+.paymentModal{
+ 
+  background-color:rgb(40, 42, 61);
+  color:whitesmoke
+}
+ 
+.paymentModalbody{
+ 
+  background-color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: large;
+}
+ 
+.successPayment{
+ 
+  background-color: rgb(158, 241, 158);
+ 
+}
+.aboutUs{
+ 
+  color: grey;
+  text-decoration: none;
+ 
+}
+ 
+.aboutUsmodalheader{
+ 
+  background-color:rgb(40, 42, 61);
+  color:white;
+}
+ 
+.aboutUsmodalbody{
+ 
+  background-color: whitesmoke;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.logoImg{
+ 
+  max-width: 200px;
+  height: auto;
+  min-height: 100% !important;
+  
+}
+ 
+.imgCenter{
+ 
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+ 
+.contactUsmodalbody{
+ 
+  display:flex;
+  justify-content: space-evenly;
+}
+ 
+.contactForm{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ 
+.contactDiv{
+ 
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.testIn {
+  
+  margin-top: 7px;
+  margin-bottom: 7px;
+  box-sizing: border-box; z-index: 17; height: 48px; width: 280px; left: 0px; top: 0px; border: 1px solid rgb(227, 227, 227); background-color: rgb(255, 255, 255); border-radius: 40px; font-family: "Open Sans"; font-size: 16px; color: rgb(0, 0, 0); padding: 0px 20px; transition: border-color 200ms ease 0s, box-shadow 200ms ease 0s;
+}
+ 
+.contactButton{
+  background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, rgb(148, 115, 221) 0%, rgb(26, 201, 228) 100%) repeat scroll 0% 0%; border: medium none;
+  text-decoration: none;
+  cursor: pointer; 
+  border-radius: 30px;
+  color:whitesmoke;
+  padding-top:10px;
+  padding-bottom: 10px;
+  margin-top:7px;
+  margin-bottom:7px;
+ 
+}
+
+.navbar-nav li a{
+  margin:5px;
+}
+.msgimage{
+  width:60px;
+  height:60px;
+  border-radius:50%;
+}
+.modalimage{
+  width:100%;
+  height: auto;
+  min-height: 100% !important;
+}
+.contactimage{
+  height:200px;
+  width:200px;
+  border-radius:50%;
+}
+.saleTitle p span {
+ display: flex;
+}
+.mynavbar{
+  display: flex;
+  overflow: auto;
+}
+
+#brand{
+  font-size:x-large ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

@@ -1,0 +1,88 @@
+
+.profiledetails {
+flex:1;
+padding:30px;
+background-color:rgb(211, 211, 211);
+overflow-x: hidden; 
+overflow-y: auto; 
+text-align:justify; 
+padding-top: 5px;
+  }
+
+  .profileimg{
+width:200px;
+height:185px;
+padding:10px;
+border-radius:20%;
+  }
+
+  .profileflex{
+    display: flex;
+    background-color: #e9ecef;
+    height:80vh;
+    overflow-x: hidden; 
+    overflow-y: auto; 
+    text-align:justify; 
+
+  }
+  .displayusersales{
+flex:3;
+
+
+
+
+
+  }
+  #userdelete{
+    background-color:rgb(165, 2, 2);
+    height:40px;
+    text-align: center;
+    opacity: 0.4;
+  }
+  #userdelete:hover{
+    opacity: 1;
+  }
+  .infoDiv{
+
+    border-radius: 0px;
+    text-align: right;
+    font-weight: bold;
+    color: rgb(90, 90, 90);
+    box-shadow: 0px 2px  0px #b9b9b9;
+
+  }
+ #editbutton{
+   margin-top:20px;
+ }
+
+  .infoDiv p {
+    text-align: left;
+    color:  rgb(44, 44, 44);
+
+  }
+  .imgcontainer{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+    background-color:rgb(43, 42, 42);
+    color:white;
+    margin:0px;
+    padding:10px;
+  }
+
+  .subButton{
+    margin-left:40px;
+  }
+  .detailsbutton{
+    margin-top:10px;
+    background-color:rgb(52, 52, 131);
+    color:white;
+    padding:10px;
+    font-weight:bold;
+    opacity:0.5;
+    border-radius:10px
+  }
+  .detailsbutton:hover{
+    opacity: 1;
+  }
