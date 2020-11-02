@@ -2,7 +2,7 @@
 
 Online Thrift Store is a web application  created as a learning Project.
 
-The App was structured according to the MVC (Model-View-Controller)
+The App was structured according to the **MVC** (Model-View-Controller)
 
 Front-End was created with **React** Javascript Library
 
@@ -10,17 +10,19 @@ Here is a sample View of our Welcome Page :
 
 ![Welcome](https://user-images.githubusercontent.com/62078660/97874687-07176780-1d22-11eb-8ef7-616b074d07fd.PNG)
 
-User can either login or register to create a new profile :
+User can either **login** or **register** to create a new profile :
 
 ![register](https://user-images.githubusercontent.com/62078660/97876855-0e8c4000-1d25-11eb-976c-f6f1eee0cd46.PNG)
 
-After registering user has the abilty to see  other users sales contact user via sending direct message and their own sale or buy an item via paypal acount :
+ After successful registering (Front-end , Back-end Validations ) user has the abilty to see  other users sales, contact user via sending direct message,  post their own sale or buy an item via their paypal acount :
 
 ![Store](https://user-images.githubusercontent.com/62078660/97877941-9de62300-1d26-11eb-85fb-83d68915d66d.PNG)
 
 ## Features
 
 * Unique Profile Page 
+
+* Create a new Sale 
 
 * Searching filters based on Gender, Price, Size etc.. 
 
@@ -29,8 +31,6 @@ After registering user has the abilty to see  other users sales contact user via
 * Calculate the distance of Seller 
 
 * Buy an item via Paypal acount
-
-* Create a new Sale 
 
 Here is a sample view of mentioned features : 
 
@@ -54,23 +54,35 @@ Here is a sample view of mentioned features :
 
 ## Technology Stack
 
-* NetBeans IDE 8.2
+* **Front-End**
+    -Visual Studio Code
+    -node.js
+    -ReactJs - JavaScript Library
+
+* **Back-End**
+    -NetBeans IDE 8.2
+    -Java 8 - Java version used
+    * Spring Boot - Back-End Framework used with the following dependencies:
+      -Spring Boot DevTools
+      -Spring Web MVC
+      -Spring Security
+      -Spring Data JPA
+      -Tomcat - Application Server used
+  
+
+* Maven - Dependency Management
 
 * MySQL- Database used
 
 * MySQL Workbench - Data Base Visual Tool
 
-* Java 8 - Java version used
+## Versioning
+*Git
+*Git Bash
 
-* Maven - Dependency Management
 
-* Spring Boot - Back-End Framework used with the following dependencies:
-  -Spring Boot DevTools
-  -Spring Web MVC
-  -Spring Security
-  -Spring Data JPA
-  -Tomcat - Application Server used
-  -ReactJs - JavaScript Library
+
+
 
 
 
