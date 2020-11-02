@@ -55,9 +55,9 @@ Here is a sample view of mentioned features :
 ## Technology Stack
 
 * **Front-End**
-    -Visual Studio Code
-    -node.js
-    -ReactJs - JavaScript Library
+  -Visual Studio Code
+  -node.js
+  -ReactJs - JavaScript Library
 
 * **Back-End**
     -NetBeans IDE 8.2
