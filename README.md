@@ -4,7 +4,7 @@ Online Thrift Store is a web application  created as a learning Project.
 
 The App was structured according to the MVC (Model-View-Controller)
 
-Front-End was created with ** React ** Javascript Library
+Front-End was created with **React** Javascript Library
 
 Here is a sample View of our Welcome Page :
 
